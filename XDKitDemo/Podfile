@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'XDKitDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for XDKitDemo
+  
+  pod 'Moya' # 请求
+  pod 'HandyJSON' # 数据解析
+  pod 'RxSwift' # 链式响应式
+  pod 'RxCocoa' # 链式响应式
+  pod 'SnapKit' # 布局
+  pod 'TangramKit' # 布局
+  pod 'URLNavigator' # 路由
+
+  pod 'LookinServer', :configurations => ['Debug'] # 调试视图查看
+  pod 'MLeaksFinder', :git => "https://github.com/Tencent/MLeaksFinder.git", :configurations => ['Debug'] # 内存泄漏检测
+
+end
