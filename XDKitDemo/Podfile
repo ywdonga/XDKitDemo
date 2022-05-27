@@ -11,6 +11,7 @@ target 'XDKitDemo' do
   pod 'HandyJSON' # 数据解析
   pod 'RxSwift' # 链式响应式
   pod 'RxCocoa' # 链式响应式
+  pod 'RxDataSources' # 列表
   pod 'SnapKit' # 布局
   pod 'TangramKit' # 布局
   pod 'URLNavigator' # 路由

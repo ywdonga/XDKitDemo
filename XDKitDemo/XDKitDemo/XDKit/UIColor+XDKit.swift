@@ -87,5 +87,14 @@ extension UIColor{
         }
         return 0
     }
+    
+    /// 生成随机颜色（一般用于测试）
+    /// - Returns: 颜色
+    static func randomColor() -> UIColor {
+        let r = CGFloat(arc4random() % 255) / 255.0
+        let g = CGFloat(arc4random() % 255) / 255.0
+        let b = CGFloat(arc4random() % 255) / 255.0
+        return UIColor(red: r, green: g, blue: b, alpha: 1)
+    }
 }
 
