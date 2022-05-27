@@ -38,7 +38,7 @@ class SettingController: UIViewController {
         listView.snp.makeConstraints { make in
             make.edges.equalTo(0)
             make.width.equalTo(scrollView)
-            make.height.equalTo(scrollView.snp_height).offset()
+            make.height.equalTo(scrollView.snp_height).offset(0)
         }
     }
     
