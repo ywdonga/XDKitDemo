@@ -1,4 +1,6 @@
 # Uncomment the next line to define a global platform for your project
+source "https://github.com/ywdonga/XDKitSpecs.git"
+
 platform :ios, '9.0'
 
 target 'XDKitDemo' do
@@ -6,7 +8,7 @@ target 'XDKitDemo' do
   use_frameworks!
 
   # Pods for XDKitDemo
-  
+  pod "XDUIExtension"
   pod 'Moya' # 请求
   pod 'HandyJSON' # 数据解析
   pod 'RxSwift' # 链式响应式

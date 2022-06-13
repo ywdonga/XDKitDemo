@@ -19,7 +19,6 @@
 		58BA24A128192F9A0094791D /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA24A028192F9A0094791D /* SettingController.swift */; };
 		58ED7B1C2840D89D002669D3 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED7B1B2840D89D002669D3 /* HomeCell.swift */; };
 		58ED7B1E2840D8D2002669D3 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED7B1D2840D8D2002669D3 /* HomeModel.swift */; };
-		58ED7B212840DE85002669D3 /* XDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED7B202840DE85002669D3 /* XDLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +35,6 @@
 		58BA24A028192F9A0094791D /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		58ED7B1B2840D89D002669D3 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		58ED7B1D2840D8D2002669D3 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
-		58ED7B202840DE85002669D3 /* XDLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDLabel.swift; sourceTree = "<group>"; };
 		5BADA71CB467E0441E6FBF46 /* Pods_XDKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C617FCA04CF3962A87FDA3 /* Pods-XDKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDKitDemo.release.xcconfig"; path = "Target Support Files/Pods-XDKitDemo/Pods-XDKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AE503D40386572621D601B59 /* Pods-XDKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-XDKitDemo/Pods-XDKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 			children = (
 				58BA11002816C78E00B423DB /* FastFunc.swift */,
 				58BA24902818EA2D0094791D /* UIColor+XDKit.swift */,
-				58ED7B202840DE85002669D3 /* XDLabel.swift */,
 			);
 			path = XDKit;
 			sourceTree = "<group>";
@@ -287,7 +284,6 @@
 				58BA24912818EA2D0094791D /* UIColor+XDKit.swift in Sources */,
 				58BA11012816C78E00B423DB /* FastFunc.swift in Sources */,
 				58BA249C28191C620094791D /* LoginController.swift in Sources */,
-				58ED7B212840DE85002669D3 /* XDLabel.swift in Sources */,
 				58BA24A128192F9A0094791D /* SettingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
